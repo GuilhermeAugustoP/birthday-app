@@ -1,11 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: #F4D3D2;
+  --secondary-color: #5b484c;
+  --primary-font: 'Roboto';
+  --secondary-font: 'Mea Culpa';
+  --font-size: 20px;
+  --primary-font-color: #4c4c4c;
+  --secondary-font-color: #ffffff;
 }
+div{
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: var(--font-size);
+}
+div .secondary {
+  position: absolute;
+  left: 48px;
+  top: 119px;
+  height: 340px;
+  width: 777px;
+  border: 2px solid;
+  border-radius: 0px;
+  background-color: var(--secondary-color);
+
+}
+.Body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  height: 1024px;
+  width: 1440px;
+  border-radius: 0px;
+  border: 2px solid;
+  background: #ffffff;
+  margin: 0;
+}
+.Header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: left;
+  height: 74px;
+  width: 1440px;
+  border: 2px solid;
+  border-radius: 0px;
+  background: #F4D3D2;
+}
+.BoxImg {
+  position: absolute;
+  left: 48px;
+  top: 119px;
+  height: 340px;
+  width: 777px;
+  border: 2px solid;
+  border-radius: 0px;
+  background: #ffffff;
+
+}
+.BoxTxt {
+  position: absolute;
+  left: 57px;
+  top: 512px;
+  height: 198px;
+  width: 768px;
+  font-size: 40px;
+  color: #5c484d;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 0px;
+  background: #ffffff;
+
+}
+.BoxContacts {
+  position: absolute;
+  left: 48px;
+  top: 725px;
+  height: 252px;
+  width: 888px;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 0px;
+  background: #ffffff;
+
+}
+.BoxFamous {
+  position: absolute;
+  width: 435px;
+  height: 875px;
+  left: 957px;
+  top: 149px;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 0px;
+  background: #ffffff;
+
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
