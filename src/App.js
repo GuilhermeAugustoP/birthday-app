@@ -2,16 +2,15 @@ import React from 'react';
 
 function App() {
   return (
-    <div className='Body'>
-
+    <div>
       <div className='Header'>
-        <h1>Birthday Appre2d</h1>
+        <h1>Birthday App2</h1>
       </div>
-      <div className='secondary'>
+      <div className='BoxImg'>
         <img></img>
       </div>
       <div className='BoxTxt'>
-        <p>Feliz Aniversário, Fulano!</p>
+        <p className='title'>Feliz Aniversário, Fulano!</p>
       </div>
       <div className='BoxContacts'>
 
