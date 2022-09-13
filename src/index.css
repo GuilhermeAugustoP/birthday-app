@@ -1,28 +1,3 @@
-:root {
-  --primary-color: #F4D3D2;
-  --secondary-color: #5b484c;
-  --primary-font: 'Roboto';
-  --secondary-font: 'Mea Culpa';
-  --font-size: 20px;
-  --primary-font-color: #4c4c4c;
-  --secondary-font-color: #ffffff;
-}
-div{
-  background-color: var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: var(--font-size);
-}
-div .secondary {
-  position: absolute;
-  left: 48px;
-  top: 119px;
-  height: 340px;
-  width: 777px;
-  border: 2px solid;
-  border-radius: 0px;
-  background-color: var(--secondary-color);
-
-}
 .Body {
   display: flex;
   flex-direction: column;
