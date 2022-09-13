@@ -1,16 +1,17 @@
 import React from 'react';
+import Logo from './img/logoApp.png'
 
 function App() {
   return (
     <div>
-      <div className='Header'>
-        <h1>Birthday App2</h1>
+      <div className='NavBar'>
+        <img src={Logo} className='NavImg'></img>
       </div>
       <div className='BoxImg'>
         <img></img>
       </div>
       <div className='BoxTxt'>
-        <p className='title'>Feliz Aniversário, Fulano!</p>
+        <p className='MeaCulpaStyleFont '>Feliz Aniversário, Fulano!</p>
       </div>
       <div className='BoxContacts'>
 
