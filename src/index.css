@@ -16,6 +16,10 @@ margin-top: 15px;
 
 
 }
+.rightContent {
+  margin: 88px 48px 0px;
+  width: 66%
+}
 .BoxImg {
   position: absolute;
   left: 48px;
@@ -63,5 +67,4 @@ margin-top: 15px;
   border: 2px solid;
   border-radius: 0px;
   background: #ffffff;
-
 }
