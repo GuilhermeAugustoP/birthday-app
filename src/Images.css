@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    border: 2px solid;
+    border-radius: 0px;
+    max-height: 340px;
+    overflow: hidden;
+    max-width: 777px;
+    background: #ffffff;
+    aspect-ratio: 4 / 3;
+}
+
+.mainImg {
+    height: 448px;
+    width: 100%;
+    object-fit: fill
+}
