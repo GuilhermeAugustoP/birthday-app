@@ -1,15 +1,16 @@
 .container {
     position: relative;
-    height: 340px;
-    width: 777px;
     border: 2px solid;
     border-radius: 0px;
+    max-height: 340px;
+    overflow: hidden;
+    max-width: 777px;
     background: #ffffff;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    aspect-ratio: 4 / 3;
 }
+
 .mainImg {
-    position: absolute;
-    top: 30px;
-    left: 50px;
+    height: 448px;
+    width: 100%;
+    object-fit: fill
 }
